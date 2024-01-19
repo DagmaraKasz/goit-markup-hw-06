@@ -1,1 +1,1 @@
-# goit-homework-05 https://dagmarakasz.github.io/goit-markup-hw-05/
+# goit-homework-06 https://dagmarakasz.github.io/goit-markup-hw-06/
