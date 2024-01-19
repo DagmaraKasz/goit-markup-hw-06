@@ -1033,7 +1033,7 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field-comment {
     margin-bottom: 16px;
@@ -1059,7 +1059,6 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
 .checkbox-field {
     margin-bottom: 24px;
 }
-.modal-check {}
 .terms-conditions {
     display: block;
     font-size: 12px;
@@ -1077,4 +1076,33 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+.modal-check {
+    background-color:var(--ocean-color);
+    border: none;
+}
+.check-icon {
+    border: none;
+    fill: #F4F4FD;
+}
+.privacy-policy {
+    color: #4d5ae5;
+}
+.send-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
