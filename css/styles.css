@@ -1011,6 +1011,10 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     display: block;
     margin-bottom: 4px;
 }
+/* ikonki podświetlały się razem z ramką */
+.label-modal:focus-within {
+    fill: #4D5AE5;
+}
 .data-field {
     position: relative;
 }
@@ -1034,6 +1038,9 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     top: 50%;
     transform: translateY(-50%);
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon:focus-within {
+    fill: #4D5AE5;
 }
 .field-comment {
     margin-bottom: 16px;
@@ -1077,14 +1084,13 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     justify-content: center;
     fill: transparent;
 }
-.modal-check {
-    background-color:var(--ocean-color);
-    border: none;
-}
-.check-icon {
+
+.modal-check:checked + .terms-conditions .accept-icon {
+    background-color: var(--ocean-color);
     border: none;
     fill: #F4F4FD;
 }
+
 .privacy-policy {
     color: #4d5ae5;
 }
@@ -1105,4 +1111,40 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin:auto;
+}
+
+/* Formularz Subscripe Footer */
+.subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px 0;
+}
+.subscribe-label {
+    display: inline-flex;
+}
+.subscribe-input {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid var(--white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: transparent;
+    color:var(--white-color);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
 }
