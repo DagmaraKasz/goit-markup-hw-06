@@ -878,7 +878,7 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
     background-color: var(--dairy-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
 .close-btn {
@@ -898,13 +898,13 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
 }
 
 .close-btn:hover {
-    background-color: #404bbf;
+    background-color: #4D5AE5;
     border: none;
-    background-color: #404bbf;
+    background-color: #4D5AE5;
     fill:var(--white-color);
 }
 .close-btn:focus {
-    background-color: #404bbf;
+    background-color: #4D5AE5;
     border: none;
     fill: var(--white-color);
 }
