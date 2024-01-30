@@ -750,12 +750,12 @@ który ustawia wyrównanie elementów w kierunku poprzecznym wzdłuż głównej 
     letter-spacing: 0.32px;
     color: var(--white-color);
     margin-bottom: 16px;
-    text-align: center;
 }
 .footer-socials {
     display: flex;
     gap: 16px;
     justify-content: space-evenly;
+    margin-right: 80px;
 }
 .footer-list {
     list-style: none;
@@ -1126,7 +1126,7 @@ który unieruchamia element na stronie i nie pozwala mu przesuwać się względe
 
 .subscribe-form {
     display: flex;
-    gap: 24px 0;
+    gap: 24px;
 }
 .subscribe-label {
     display: inline-flex;
